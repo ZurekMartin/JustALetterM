@@ -18,17 +18,22 @@ export default function Home() {
   }, []);
 
   const projects = [
-    { name: 'AP6BS', size: 'L', language: 'TypeScript', link: 'https://github.com/ZurekMartin/AP6BS' },
-    { name: 'SimpleRecipes', size: 'S', language: 'JavaScript', link: 'https://github.com/ZurekMartin/SimpleRecipes' },
-    { name: 'AP7MT', size: 'M', language: 'Kotlin', link: 'https://github.com/ZurekMartin/AP7MT' },
-    { name: 'SimpleChat', size: 'S', language: 'Python', link: 'https://github.com/ZurekMartin/SimpleChat' },
-    { name: 'AP5PM', size: 'M', language: 'TypeScript', link: 'https://github.com/ZurekMartin/AP5PM' },
-    { name: 'AP2ZC', size: 'S', language: 'C', link: 'https://github.com/ZurekMartin/AP2ZC' },
-    { name: 'AP5PW', size: 'M', language: 'C#', link: 'https://github.com/ZurekMartin/AP5PW' },
     { name: 'AP1VS', size: 'S', language: 'Python', link: 'https://github.com/ZurekMartin/AP1VS' },
+    { name: 'AP2ZC', size: 'S', language: 'C', link: 'https://github.com/ZurekMartin/AP2ZC' },
     { name: 'AP3KR', size: 'L', language: 'Python', link: 'https://github.com/ZurekMartin/AP3KR' },
-    { name: 'AP4TW', size: 'M', language: 'HTML', link: 'https://github.com/ZurekMartin/AP4TW' },
     { name: 'AP3TI', size: 'M', language: 'Python', link: 'https://github.com/ZurekMartin/AP3TI' },
+    { name: 'AP4AL', size: 'M', language: 'C', link: 'https://github.com/ZurekMartin/AP4AL' },
+    { name: 'AP4TW', size: 'S', language: 'HTML', link: 'https://github.com/ZurekMartin/AP4TW' },
+    { name: 'AP5PM', size: 'M', language: 'TypeScript', link: 'https://github.com/ZurekMartin/AP5PM' },
+    { name: 'AP5PW', size: 'M', language: 'C#', link: 'https://github.com/ZurekMartin/AP5PW' },
+    { name: 'AP6BS', size: 'L', language: 'TypeScript', link: 'https://github.com/ZurekMartin/AP6BS' },
+    { name: 'AP6UI', size: 'M', language: 'Python', link: 'https://github.com/ZurekMartin/AP6UI' },
+    { name: 'AP7AK', size: 'S', language: 'Python', link: 'https://github.com/ZurekMartin/AP7AK' },
+    { name: 'AP7MT', size: 'M', language: 'Kotlin', link: 'https://github.com/ZurekMartin/AP7MT' },
+    { name: 'AP7SU', size: 'M', language: 'Jupyter Notebook', link: 'https://github.com/ZurekMartin/AP7SU' },
+    { name: 'JustALetterM', size: 'M', language: 'TypeScript', link: 'https://github.com/ZurekMartin/JustALetterM' },
+    { name: 'SimpleChat', size: 'S', language: 'Python', link: 'https://github.com/ZurekMartin/SimpleChat' },
+    { name: 'SimpleRecipes', size: 'S', language: 'JavaScript', link: 'https://github.com/ZurekMartin/SimpleRecipes' },
   ];
 
     const layout = useMemo(() => {
